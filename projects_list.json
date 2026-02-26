@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1000,
+    "src": "/Mandir/WhatsApp Image 2026-02-17 at 10.05.29 (3).jpeg",
+    "category": "Traditional Spaces",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1001,
+    "src": "/Mandir/WhatsApp Image 2026-02-17 at 10.05.17 (1).jpeg",
+    "category": "Traditional Spaces",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1002,
+    "src": "/Mandir/WhatsApp Image 2026-02-17 at 10.05.26.jpeg",
+    "category": "Traditional Spaces",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1003,
+    "src": "/Mandir/WhatsApp Image 2026-02-17 at 10.05.30 (2).jpeg",
+    "category": "Traditional Spaces",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1004,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.10 (3).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1005,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.29 (4).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1006,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.30.jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1007,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.20 (1).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1008,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.19 (3).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1009,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.20.jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1010,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.30 (3).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1011,
+    "src": "/Dining Table/WhatsApp Image 2026-02-17 at 10.05.20 (2).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1012,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.29 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1013,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.28.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1014,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.13.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1015,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.14 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1016,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.19 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1017,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.18 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1018,
+    "src": "/Study table/WhatsApp Image 2026-02-17 at 10.05.14 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1019,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.24 (2).jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1020,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.19.jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1021,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.10 (2).jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1022,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.15.jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1023,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.10.jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1024,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.15 (1).jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1025,
+    "src": "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.15 (4).jpeg",
+    "category": "Chef's Kitchens",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 1026,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.23 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1027,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.16 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1028,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.22 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1029,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.12.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1030,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.25 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1031,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.11 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1032,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.12 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1033,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.19 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1034,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.20 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1035,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.21 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1036,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.11.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1037,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.26 (4).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1038,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.21 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1039,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.31.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1040,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.26 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1041,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.20 (4).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1042,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.12 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1043,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.21.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1044,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.21 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1045,
+    "src": "/Living Room/WhatsApp Image 2026-02-17 at 10.05.30 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1046,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.14.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1047,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.24 (4).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1048,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.28 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1049,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.22 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1050,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.17 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1051,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.16 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1052,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.23 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1053,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.22 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1054,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.18.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1055,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.22.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1056,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.28 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1057,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.25 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1058,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.23.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1059,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.08.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1060,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.23 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1061,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.24.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1062,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.29 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1063,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.28 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1064,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.17 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1065,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.16 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1066,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.22 (4).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1067,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.24 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1068,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.10 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1069,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.25 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1070,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.09.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1071,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.13 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1072,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.09 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1073,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.27 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1074,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.18 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1075,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.27.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1076,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.15 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1077,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.13 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1078,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.12 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1079,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.27 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1080,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.18 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1081,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.16.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1082,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.09 (2).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1083,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.13 (3).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1084,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.27 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1085,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.26 (1).jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1086,
+    "src": "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.17.jpeg",
+    "category": "Luxury Apartments",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1087,
+    "src": "/Entrance/WhatsApp Image 2026-02-17 at 10.05.29.jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1088,
+    "src": "/Entrance/WhatsApp Image 2026-02-17 at 10.05.25.jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 1089,
+    "src": "/Entrance/WhatsApp Image 2026-02-17 at 10.05.26 (2).jpeg",
+    "category": "Private Villas",
+    "aspectRatio": "portrait"
+  }
+]
