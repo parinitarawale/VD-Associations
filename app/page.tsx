@@ -15,24 +15,34 @@ const HERO_IMAGES = [
 
 const TESTIMONIALS = [
   {
-    quote: "We were worried about handling contractors, but Mr. Sharad Sonavane’s experience really shows. The civil work was flawless. Dr. Vishal gave us a design that our friends can't stop complimenting. A perfect father-son duo!",
-    author: "The Deshmukh Family",
-    location: "Hiranandani Estate, Thane"
+    quote: "Dr. Vishal's designs transformed our home beyond what we imagined. His understanding of space and aesthetics is unmatched. Mr. Sharad's civil execution was rock solid — a truly dependable team!",
+    author: "ACP Manish Ajinya (Retd.)",
+    location: "Mumbai"
   },
   {
-    quote: "I wanted a home that followed Vastu principles but didn't look old-fashioned. Dr. Vishal found the perfect balance. The 3D renders were exactly what we got in the end.",
-    author: "Mr. Rajesh Iyer",
-    location: "Dadar West, Mumbai"
+    quote: "I wanted a home that was both elegant and functional. VD Associates delivered perfection — from the Vastu-compliant layout to the stunning interiors. Highly recommend their professionalism.",
+    author: "Dr. Asha Menon",
+    location: "Dean, KEM Hospital"
   },
   {
-    quote: "Their attention to detail in the kitchen design was exceptional. It's now the heart of our home. Ergonomic, stylish, and perfect for our needs.",
-    author: "Mrs. Meena Kulkarni",
-    location: "Eon Waterfront, Pune"
+    quote: "As an orthopaedic surgeon, I understand precision. VD Associates brought that same precision to our home. The 3D renders matched the final result exactly. Truly impressive craftsmanship.",
+    author: "Dr. Prashant Sonavane",
+    location: "MS Orthopaedic"
   },
   {
-    quote: "From the first meeting over chai to the final handover, the process was transparent. Mr. Sharad's civil expertise gave us immense peace of mind.",
-    author: "The Kapoor Family",
-    location: "Worli, Mumbai"
+    quote: "Working with VD Associates was a premium experience from start to finish. Their design sensibility is world-class and the attention to every finishing detail is remarkable.",
+    author: "Mr. Anoop Pathak",
+    location: "Director, Raymond Furnishing"
+  },
+  {
+    quote: "Mr. Sharad's decades of experience in civil work and Dr. Vishal's fresh design perspective make them an unbeatable duo. Our home is now the talk of the neighbourhood!",
+    author: "Mr. Milind Patil",
+    location: "Ex Opposition Leader, Shivsena"
+  },
+  {
+    quote: "From the first consultation to the final handover, VD Associates maintained transparency and quality. The kitchen and living room designs exceeded all our expectations.",
+    author: "Mr. Allwyn Cabral",
+    location: "HOD, Saint Mary High School, Dombivali"
   }
 ]
 
