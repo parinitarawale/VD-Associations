@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Phone, Mail, Instagram, Facebook, Linkedin, ArrowUpRight, MessageCircle } from "lucide-react"
+import { Phone, Mail, Instagram, Facebook, ArrowUpRight, MessageCircle } from "lucide-react"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 
@@ -48,7 +48,7 @@ export default function Footer() {
                     {/* 2. Address & Contact */}
                     <div className="space-y-10">
                         <div className="w-full border-b border-white/10 pb-10 text-center">
-                            <h2 className="font-sans font-black text-2xl md:text-3xl text-white uppercase mb-4 leading-none">VD ASSOCIATES</h2>
+                            <h2 className="font-sans font-black text-2xl md:text-3xl text-white uppercase mb-4 leading-none">VD & ASSOCIATES</h2>
                             <p className="font-sans font-bold text-[10px] text-stone-500 uppercase tracking-[0.3em] leading-relaxed">
                                 Shop no 07, Anandvan Society, Anand Park, Near Shreerang School, <br className="hidden sm:block" />
                                 Thane West, Maharashtra 400607.
@@ -60,7 +60,7 @@ export default function Footer() {
                                 <Phone size={16} className="text-brand-red" />
                                 <span className="text-xs font-bold font-sans uppercase">Call</span>
                             </a>
-                            <a href="mailto:contact@vdAssociates.com" className="bg-white/5 border border-white/10 rounded-xl p-3 flex items-center justify-center gap-3 hover:bg-brand-red/20 transition-colors">
+                            <a href="mailto:vishal.sonavane@gmail.com" className="bg-white/5 border border-white/10 rounded-xl p-3 flex items-center justify-center gap-3 hover:bg-brand-red/20 transition-colors">
                                 <Mail size={16} className="text-brand-red" />
                                 <span className="text-xs font-bold font-sans uppercase">Email</span>
                             </a>
@@ -80,11 +80,11 @@ export default function Footer() {
                         <a href="https://www.facebook.com/people/Vishal-Decorators-GROUP/100047639126143/" target="_blank" rel="noreferrer">
                             <Facebook size={20} className="text-stone-500 hover:text-white cursor-pointer transition-colors" />
                         </a>
-                        <Linkedin size={20} className="text-stone-500 hover:text-white cursor-pointer transition-colors" />
+
                     </div>
                     <div className="text-center space-y-1">
                         <p className="font-sans text-[10px] text-stone-400 uppercase tracking-widest">
-                            © 1982-2026 VD ASSOCIATES. <span className="mx-2 text-white/20">|</span> 4+ Decades of Drafting Dreams
+                            © 1982-2026 VD & ASSOCIATES. <span className="mx-2 text-white/20">|</span> 4+ Decades of Drafting Dreams
                         </p>
                         <p className="font-sans text-[10px] text-stone-600 uppercase tracking-tight">Architects | Interior Designers | Scientific Vastu</p>
                     </div>

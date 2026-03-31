@@ -6,7 +6,7 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 
 const HERO_IMAGES = [
-  { src: "/Living Room/WhatsApp Image 2026-02-17 at 10.05.11.jpeg", alt: "Luxury living at VD Associates" },
+  { src: "/Living Room/WhatsApp Image 2026-02-17 at 10.05.11.jpeg", alt: "Luxury living at VD & Associates" },
   { src: "/Entrance/entrance1.jpeg", alt: "Grand Entrance Design" },
   { src: "/Bedroom /bed1.jpeg", alt: "Executive Bedroom Suite" },
   { src: "/Kitchen/kitchen1.jpeg", alt: "Modern Gourmet Kitchen" },
@@ -20,17 +20,17 @@ const TESTIMONIALS = [
     location: "Mumbai"
   },
   {
-    quote: "I wanted a home that was both elegant and functional. VD Associates delivered perfection — from the Vastu-compliant layout to the stunning interiors. Highly recommend their professionalism.",
+    quote: "I wanted a home that was both elegant and functional. VD & Associates delivered perfection — from the Vastu-compliant layout to the stunning interiors. Highly recommend their professionalism.",
     author: "Dr. Asha Menon",
     location: "Dean, KEM Hospital"
   },
   {
-    quote: "As an orthopaedic surgeon, I understand precision. VD Associates brought that same precision to our home. The 3D renders matched the final result exactly. Truly impressive craftsmanship.",
+    quote: "As an orthopaedic surgeon, I understand precision. VD & Associates brought that same precision to our home. The 3D renders matched the final result exactly. Truly impressive craftsmanship.",
     author: "Dr. Prashant Sonavane",
     location: "MS Orthopaedic"
   },
   {
-    quote: "Working with VD Associates was a premium experience from start to finish. Their design sensibility is world-class and the attention to every finishing detail is remarkable.",
+    quote: "Working with VD & Associates was a premium experience from start to finish. Their design sensibility is world-class and the attention to every finishing detail is remarkable.",
     author: "Mr. Anoop Pathak",
     location: "Director, Raymond Furnishing"
   },
@@ -40,7 +40,7 @@ const TESTIMONIALS = [
     location: "Ex Opposition Leader, Shivsena"
   },
   {
-    quote: "From the first consultation to the final handover, VD Associates maintained transparency and quality. The kitchen and living room designs exceeded all our expectations.",
+    quote: "From the first consultation to the final handover, VD & Associates maintained transparency and quality. The kitchen and living room designs exceeded all our expectations.",
     author: "Mr. Allwyn Cabral",
     location: "HOD, Saint Mary High School, Dombivali"
   }
@@ -100,7 +100,7 @@ export default function Home() {
                 className="max-w-4xl"
               >
                 <h1 className="text-3xl md:text-5xl font-sans font-bold text-white uppercase tracking-tighter leading-none mb-3">
-                  V. D. <span className="text-brand-red">Associates</span> <br />
+                  VD & <span className="text-brand-red">Associates</span> <br />
                 </h1>
                 <p className="text-white/80 font-sans font-bold text-[8px] md:text-xs uppercase tracking-[0.4em] mb-6">
                   Crafting Legacies Since 1982
@@ -223,10 +223,10 @@ export default function Home() {
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4 max-w-sm mx-auto">
             <div className="aspect-[3/4] bg-white rounded-2xl overflow-hidden border border-sketch-grey shadow-lg mt-8">
-              <img src="/Dining Table/WhatsApp Image 2026-02-17 at 10.05.20.jpeg" className="w-full h-full object-cover" alt="Bespoke Dining Area" />
+              <img src="/Dining Table/dine1.jpeg" className="w-full h-full object-cover" alt="Bespoke Dining Area" />
             </div>
             <div className="aspect-[3/4] bg-white rounded-2xl overflow-hidden border border-sketch-grey shadow-lg">
-              <img src="/Living Room/WhatsApp Image 2026-02-17 at 10.05.21.jpeg" className="w-full h-full object-cover" alt="Architectural Detail" />
+              <img src="/Living Room/WhatsApp Image 2026-02-17 at 10.05.21 (3).jpeg" className="w-full h-full object-cover" alt="Architectural Detail" />
             </div>
           </div>
         </div>

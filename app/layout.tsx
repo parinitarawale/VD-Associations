@@ -17,7 +17,7 @@ const lato = Lato({
 })
 
 export const metadata: Metadata = {
-  title: "VD Associates | Luxury Residential Architects",
+  title: "VD & Associates | Luxury Residential Architects",
   description: "4 Decades of Architectural Excellence. EST. 1982.",
 };
 

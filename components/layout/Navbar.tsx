@@ -28,7 +28,7 @@ export function Navbar() {
                         V
                     </div>
                     <div className="flex flex-col leading-none">
-                        <span className="font-sans font-bold text-sm tracking-widest text-ink-black uppercase">VD Associates</span>
+                        <span className="font-sans font-bold text-sm tracking-widest text-ink-black uppercase">VD & Associates</span>
                         <span className="font-sans text-[8px] tracking-[0.3em] text-brand-red font-bold uppercase">EST. 1982</span>
                     </div>
                 </Link>

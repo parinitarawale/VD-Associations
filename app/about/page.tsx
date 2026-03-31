@@ -26,7 +26,7 @@ export default function AboutPage() {
             {/* Narrative Hero */}
             <section className="max-w-3xl mx-auto px-6 text-center mb-0">
                 <p className="text-lg md:text-xl text-graphite font-body leading-relaxed mb-8">
-                    For over four decades, VD Associates has stood at the intersection of strength and aesthetics. Our journey began in 1982 on a humble drafting table, driven by Mr. Sharad Sonavane’s unyielding commitment to civil excellence. Today, that legacy has evolved into a multi-disciplinary design studio under the visionary leadership of Dr. Vishal Sharad Sonavane.
+                    For over four decades, VD & Associates has stood at the intersection of strength and aesthetics. Our journey began in 1982 on a humble drafting table, driven by Mr. Sharad Sonavane’s unyielding commitment to civil excellence. Today, that legacy has evolved into a multi-disciplinary design studio under the visionary leadership of Dr. Vishal Sharad Sonavane.
                 </p>
                 <p className="text-lg md:text-xl text-graphite font-body leading-relaxed max-w-4xl mx-auto">
                     We are no longer just builders; we are curators of lifestyle. By fusing the structural rigor of the past with the immersive 3D technology and Scientific Vastu of the present, we offer a holistic approach to home-making. From the first brick laid to the final curtain hung, we honor the trust of generations by crafting spaces that are as durable as they are beautiful.
@@ -57,11 +57,12 @@ export default function AboutPage() {
                     viewport={{ once: true }}
                     className="flex flex-col bg-white border border-sketch-grey rounded-3xl overflow-hidden group hover:shadow-2xl transition-all duration-500"
                 >
-                    <div className="aspect-[4/5] bg-ink-black/10 relative overflow-hidden">
-                        {/* Photo Placeholder */}
-                        <div className="absolute inset-0 flex items-center justify-center text-graphite/20 font-sans italic text-xl p-12 text-center">
-                            [Mr. Sharad Sonavane Photo]
-                        </div>
+                    <div className="aspect-[4/5] bg-ink-black/10 relative overflow-hidden group-hover:scale-105 transition-transform duration-700">
+                        <img
+                            src="/SharadS.png"
+                            alt="Mr. Sharad Sonavane"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                     <div className="p-8 space-y-4">
                         <div className="inline-block px-4 py-1 bg-ink-black text-white text-[10px] uppercase font-bold tracking-widest rounded-full mb-2">

@@ -24,7 +24,7 @@ export function BookingDrawer({ isOpen, onClose, selectedDate, selectedTime }: B
         // Basic validation
         if (!name || !whatsapp) return
 
-        const message = `Hello VD Associates, I would like to reserve a slot.
+        const message = `Hello VD & Associates, I would like to reserve a slot.
     
     Name: ${name}
     Date: ${selectedDate.toDateString()}

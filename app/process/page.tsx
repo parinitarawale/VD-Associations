@@ -10,7 +10,7 @@ export default function ProcessPage() {
             title: "The Discovery",
             subtitle: "Chai & Listen",
             icon: <Coffee />,
-            image: "/Entrance/WhatsApp Image 2026-02-17 at 10.05.25.jpeg",
+            image: "/Entrance/entrance1.jpeg",
             desc: "Requirement Analysis: We start by listening. We meet (over a cup of chai) to understand your family structure, your lifestyle needs, and your budget. We treat this as a partnership, not a transaction.",
             hook: "Partnership Focused"
         },
@@ -19,7 +19,7 @@ export default function ProcessPage() {
             title: "The Alignment",
             subtitle: "Vastu",
             icon: <Compass />,
-            image: "/Mandir/WhatsApp Image 2026-02-17 at 10.05.26.jpeg",
+            image: "/Mandir/mandir1.jpeg",
             desc: "Directional Planning: Before drawing a single line, Dr. Vishal analyzes the Vastu of your apartment or villa. We align the layout to ensure health, wealth, and prosperity flow through your new home.",
             hook: "Scientific Vastu"
         },
@@ -28,7 +28,7 @@ export default function ProcessPage() {
             title: "The Concept",
             subtitle: "The Sketch",
             icon: <DraftingCompass />,
-            image: "/Study table/WhatsApp Image 2026-02-17 at 10.05.13.jpeg",
+            image: "/Study table/desk1.jpeg",
             desc: "2D Layouts & Space Planning: We maximize every inch of space. Using precise architectural grids, we create furniture layouts that prioritize movement, ventilation, and functionality.",
             hook: "Precision Grids"
         },
@@ -46,7 +46,7 @@ export default function ProcessPage() {
             title: "The Selection",
             subtitle: "Material Sourcing",
             icon: <CheckCircle2 />,
-            image: "/Kitchen/WhatsApp Image 2026-02-17 at 10.05.15.jpeg",
+            image: "/Kitchen/kitchen1.jpeg",
             desc: "We accompany you to showrooms to select tiles, veneers, fabrics, and lights. We ensure the materials chosen match the 3D design and your budget.",
             hook: "Curation & Budget"
         },
@@ -55,7 +55,7 @@ export default function ProcessPage() {
             title: "The Handover",
             subtitle: "Execution & Delivery",
             icon: <Key />,
-            image: "/Bedroom /WhatsApp Image 2026-02-17 at 10.05.14.jpeg",
+            image: "/Bedroom /bed1.jpeg",
             desc: "Our civil team, led by the experience of Mr. Sharad Sonavane, executes the design with military precision. We hand over the keys to your cleaned, finished home. On time.",
             hook: "Military Precision"
         }

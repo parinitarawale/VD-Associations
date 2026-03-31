@@ -139,8 +139,14 @@ export default function ContactPage() {
                         <ContactCard
                             icon={<Mail size={24} />}
                             title="Inquiries"
-                            detail="contact@vdAssociates.com"
-                            link="mailto:contact@vdAssociates.com"
+                            detail="vishal.sonavane@gmail.com"
+                            link="mailto:vishal.sonavane@gmail.com"
+                        />
+                        <ContactCard
+                            icon={<MessageCircle size={24} />}
+                            title="WhatsApp"
+                            detail="086524 34222"
+                            link="https://wa.me/918652434222"
                         />
                         <div className="p-8 bg-paper-red/5 rounded-[32px] border border-brand-red/10 flex items-start gap-6">
                             <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-brand-red shadow-sm border border-sketch-grey">
