@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
@@ -24,9 +25,13 @@ export function Navbar() {
             <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
-                    <div className="w-8 h-8 bg-brand-red rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
-                        V
-                    </div>
+                    <Image
+                        src="/logo.jpeg"
+                        alt="VD & Associates Logo"
+                        width={40}
+                        height={40}
+                        className="rounded-lg shadow-lg group-hover:scale-110 transition-transform object-contain"
+                    />
                     <div className="flex flex-col leading-none">
                         <span className="font-sans font-bold text-sm tracking-widest text-ink-black uppercase">VD & Associates</span>
                         <span className="font-sans text-[8px] tracking-[0.3em] text-brand-red font-bold uppercase">EST. 1982</span>
@@ -94,6 +99,21 @@ export function Navbar() {
                             <span className="font-sans font-bold text-[10px] uppercase tracking-widest group-hover:pr-1 transition-all">Close</span>
                             <X size={28} />
                         </button>
+
+                        {/* Mobile Logo */}
+                        <div className="flex items-center gap-3 mb-8">
+                            <Image
+                                src="/logo.jpeg"
+                                alt="VD & Associates Logo"
+                                width={44}
+                                height={44}
+                                className="rounded-lg shadow-lg object-contain"
+                            />
+                            <div className="flex flex-col leading-none">
+                                <span className="font-sans font-bold text-sm tracking-widest text-ink-black uppercase">VD & Associates</span>
+                                <span className="font-sans text-[8px] tracking-[0.3em] text-brand-red font-bold uppercase">EST. 1982</span>
+                            </div>
+                        </div>
 
                         <div className="flex flex-col gap-8">
                             {NAV_LINKS.map((link) => {

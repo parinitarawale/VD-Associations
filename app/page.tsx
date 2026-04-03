@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
+import Image from "next/image"
 import { ChevronRight } from "lucide-react"
 
 const HERO_IMAGES = [
@@ -97,11 +98,20 @@ export default function Home() {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="max-w-4xl"
+                className="max-w-4xl flex flex-col items-center"
               >
-                <h1 className="text-3xl md:text-5xl font-sans font-bold text-white uppercase tracking-tighter leading-none mb-3">
-                  VD & <span className="text-brand-red">Associates</span> <br />
-                </h1>
+                <div className="flex items-center gap-4 mb-3">
+                  <Image
+                    src="/logo.jpeg"
+                    alt="VD & Associates Logo"
+                    width={60}
+                    height={60}
+                    className="rounded-xl shadow-2xl object-contain border-2 border-white/20"
+                  />
+                  <h1 className="text-3xl md:text-5xl font-sans font-bold text-white uppercase tracking-tighter leading-none">
+                    VD & <span className="text-brand-red">Associates</span>
+                  </h1>
+                </div>
                 <p className="text-white/80 font-sans font-bold text-[8px] md:text-xs uppercase tracking-[0.4em] mb-6">
                   Crafting Legacies Since 1982
                 </p>
@@ -146,6 +156,67 @@ export default function Home() {
             <StatItem value={40} suffix="+" label="Years" />
             <StatItem value={400} suffix="+" label="Projects" />
             <StatItem value={100} suffix="%" label="Vastu" />
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery CTA Section */}
+      <section className="py-24 px-6 bg-ink-black relative overflow-hidden">
+        <div className="absolute inset-0 bg-drafting-paper opacity-5 pointer-events-none" />
+        <div className="max-w-7xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-5xl font-sans font-bold text-white uppercase tracking-tighter mb-4">
+              Explore Our <span className="text-brand-red">Gallery</span>
+            </h2>
+            <p className="text-stone-400 font-body text-lg max-w-2xl mx-auto">
+              Browse through 400+ completed projects — from luxurious bedrooms to modern kitchens, each space tells a story of precision and elegance.
+            </p>
+          </motion.div>
+
+          {/* Preview Grid */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="grid grid-cols-4 gap-3 md:gap-4 mb-12 max-w-4xl mx-auto"
+          >
+            {[
+              { src: "/Bedroom /bed1.jpeg", label: "Bedrooms" },
+              { src: "/Living Room/WhatsApp Image 2026-02-17 at 10.05.11.jpeg", label: "Living Room" },
+              { src: "/Kitchen/kitchen1.jpeg", label: "Kitchen" },
+              { src: "/Mandir/mandir1.jpeg", label: "Mandir" },
+            ].map((item, i) => (
+              <Link key={i} href="/projects" className="group relative">
+                <div className="aspect-square rounded-2xl overflow-hidden border border-white/10">
+                  <img
+                    src={item.src}
+                    alt={item.label}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-ink-black/40 group-hover:bg-ink-black/20 transition-colors rounded-2xl" />
+                  <span className="absolute bottom-2 left-0 right-0 text-center text-white font-sans font-bold text-[8px] md:text-xs uppercase tracking-widest">
+                    {item.label}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </motion.div>
+
+          <div className="text-center">
+            <Link
+              href="/projects"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-brand-red text-white font-sans font-bold uppercase tracking-widest text-xs rounded-full hover:bg-white hover:text-brand-red transition-all shadow-2xl group"
+            >
+              Explore Full Gallery
+              <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </Link>
           </div>
         </div>
       </section>
@@ -206,6 +277,7 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
 
       {/* Featured Teaser */}
       <section className="py-32 px-6 border-t border-sketch-grey relative z-10 bg-transparent">

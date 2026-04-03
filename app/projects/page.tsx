@@ -1,8 +1,9 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { cn } from "@/lib/utils"
+import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const PROJECTS = [
     // Bedrooms
@@ -84,10 +85,46 @@ const CATEGORIES = ["All", "Bedrooms", "Living Room", "Kitchen", "Mandir"]
 
 export default function ProjectsPage() {
     const [activeCategory, setActiveCategory] = useState("All")
+    const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
 
     const filtered = activeCategory === "All"
         ? PROJECTS
         : PROJECTS.filter(p => p.category === activeCategory)
+
+    const openLightbox = (idx: number) => setLightboxIndex(idx)
+    const closeLightbox = () => setLightboxIndex(null)
+
+    const goNext = useCallback(() => {
+        if (lightboxIndex === null) return
+        setLightboxIndex((lightboxIndex + 1) % filtered.length)
+    }, [lightboxIndex, filtered.length])
+
+    const goPrev = useCallback(() => {
+        if (lightboxIndex === null) return
+        setLightboxIndex((lightboxIndex - 1 + filtered.length) % filtered.length)
+    }, [lightboxIndex, filtered.length])
+
+    // Keyboard navigation
+    useEffect(() => {
+        if (lightboxIndex === null) return
+        const handleKey = (e: KeyboardEvent) => {
+            if (e.key === "Escape") closeLightbox()
+            if (e.key === "ArrowRight") goNext()
+            if (e.key === "ArrowLeft") goPrev()
+        }
+        window.addEventListener("keydown", handleKey)
+        return () => window.removeEventListener("keydown", handleKey)
+    }, [lightboxIndex, goNext, goPrev])
+
+    // Lock body scroll when lightbox is open
+    useEffect(() => {
+        if (lightboxIndex !== null) {
+            document.body.style.overflow = "hidden"
+        } else {
+            document.body.style.overflow = ""
+        }
+        return () => { document.body.style.overflow = "" }
+    }, [lightboxIndex])
 
     return (
         <main className="pt-24 min-h-screen">
@@ -129,16 +166,82 @@ export default function ProjectsPage() {
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     <AnimatePresence>
                         {filtered.map((item, idx) => (
-                            <ProjectCard key={item.id} item={item} idx={idx} />
+                            <ProjectCard key={item.id} item={item} idx={idx} onClick={() => openLightbox(idx)} />
                         ))}
                     </AnimatePresence>
                 </div>
             </div>
+
+            {/* Lightbox */}
+            <AnimatePresence>
+                {lightboxIndex !== null && filtered[lightboxIndex] && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.25 }}
+                        className="fixed inset-0 z-[200] bg-ink-black/95 flex items-center justify-center"
+                        onClick={closeLightbox}
+                    >
+                        {/* Close Button */}
+                        <button
+                            onClick={closeLightbox}
+                            className="absolute top-6 right-6 z-[210] p-2 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-colors"
+                            aria-label="Close lightbox"
+                        >
+                            <X size={24} />
+                        </button>
+
+                        {/* Counter */}
+                        <div className="absolute top-6 left-6 z-[210] text-white/60 font-sans text-xs font-bold uppercase tracking-widest">
+                            {lightboxIndex + 1} / {filtered.length}
+                        </div>
+
+                        {/* Prev Button */}
+                        <button
+                            onClick={(e) => { e.stopPropagation(); goPrev() }}
+                            className="absolute left-4 md:left-8 z-[210] p-3 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-colors"
+                            aria-label="Previous image"
+                        >
+                            <ChevronLeft size={24} />
+                        </button>
+
+                        {/* Image */}
+                        <motion.img
+                            key={filtered[lightboxIndex].id}
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.9 }}
+                            transition={{ duration: 0.3 }}
+                            src={filtered[lightboxIndex].src}
+                            alt="VD & Associates Project"
+                            className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl"
+                            onClick={(e) => e.stopPropagation()}
+                        />
+
+                        {/* Next Button */}
+                        <button
+                            onClick={(e) => { e.stopPropagation(); goNext() }}
+                            className="absolute right-4 md:right-8 z-[210] p-3 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-colors"
+                            aria-label="Next image"
+                        >
+                            <ChevronRight size={24} />
+                        </button>
+
+                        {/* Category Label */}
+                        <div className="absolute bottom-6 left-0 right-0 text-center z-[210]">
+                            <span className="text-white/50 font-sans text-[10px] font-bold uppercase tracking-[0.3em]">
+                                {filtered[lightboxIndex].category}
+                            </span>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </main>
     )
 }
 
-function ProjectCard({ item, idx }: { item: any; idx: number }) {
+function ProjectCard({ item, idx, onClick }: { item: any; idx: number; onClick: () => void }) {
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -146,6 +249,7 @@ function ProjectCard({ item, idx }: { item: any; idx: number }) {
             exit={{ opacity: 0, transition: { duration: 0.2 } }}
             transition={{ duration: 0.4, delay: idx * 0.05 }}
             className="group cursor-pointer"
+            onClick={onClick}
         >
             <div className="bg-white p-3 rounded-2xl shadow-sm border border-sketch-grey hover:shadow-2xl transition-all duration-500 overflow-hidden relative">
                 <div className={cn(
@@ -162,8 +266,12 @@ function ProjectCard({ item, idx }: { item: any; idx: number }) {
                         alt="VD & Associates Project"
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
-
-
+                    {/* Zoom Hint Overlay */}
+                    <div className="absolute inset-0 bg-ink-black/0 group-hover:bg-ink-black/30 transition-colors duration-300 flex items-center justify-center">
+                        <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-sans text-[10px] font-bold uppercase tracking-widest bg-white/20 backdrop-blur-md px-4 py-2 rounded-full">
+                            View
+                        </span>
+                    </div>
                 </div>
             </div>
         </motion.div>

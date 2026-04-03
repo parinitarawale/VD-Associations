@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Phone, Mail, Instagram, Facebook, ArrowUpRight, MessageCircle } from "lucide-react"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 
@@ -47,7 +48,14 @@ export default function Footer() {
 
                     {/* 2. Address & Contact */}
                     <div className="space-y-10">
-                        <div className="w-full border-b border-white/10 pb-10 text-center">
+                        <div className="w-full border-b border-white/10 pb-10 flex flex-col items-center text-center">
+                            <Image
+                                src="/logo.jpeg"
+                                alt="VD & Associates Logo"
+                                width={60}
+                                height={60}
+                                className="rounded-xl mb-4 shadow-lg object-contain"
+                            />
                             <h2 className="font-sans font-black text-2xl md:text-3xl text-white uppercase mb-4 leading-none">VD & ASSOCIATES</h2>
                             <p className="font-sans font-bold text-[10px] text-stone-500 uppercase tracking-[0.3em] leading-relaxed">
                                 Shop no 07, Anandvan Society, Anand Park, Near Shreerang School, <br className="hidden sm:block" />
