@@ -206,18 +206,27 @@ export default function ProjectsPage() {
                             <ChevronLeft size={24} />
                         </button>
 
-                        {/* Image */}
-                        <motion.img
-                            key={filtered[lightboxIndex].id}
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            exit={{ opacity: 0, scale: 0.9 }}
-                            transition={{ duration: 0.3 }}
-                            src={filtered[lightboxIndex].src}
-                            alt="VD & Associates Project"
-                            className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl"
-                            onClick={(e) => e.stopPropagation()}
-                        />
+                        {/* Image with Watermark */}
+                        <div className="relative" onClick={(e) => e.stopPropagation()}>
+                            <motion.img
+                                key={filtered[lightboxIndex].id}
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 0.9 }}
+                                transition={{ duration: 0.3 }}
+                                src={filtered[lightboxIndex].src}
+                                alt="VD & Associates Project"
+                                className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl"
+                            />
+                            {/* Lightbox Logo Watermark */}
+                            <div className="absolute top-3 left-3 z-[220]">
+                                <img
+                                    src="/logo.png"
+                                    alt="VD & Associates"
+                                    className="w-10 h-10 md:w-12 md:h-12 object-contain"
+                                />
+                            </div>
+                        </div>
 
                         {/* Next Button */}
                         <button
@@ -266,6 +275,14 @@ function ProjectCard({ item, idx, onClick }: { item: any; idx: number; onClick: 
                         alt="VD & Associates Project"
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
+                    {/* Logo Watermark */}
+                    <div className="absolute bottom-2 right-2 z-10">
+                        <img
+                            src="/logo.png"
+                            alt="VD & Associates"
+                            className="w-6 h-6 md:w-8 md:h-8 object-contain"
+                        />
+                    </div>
                     {/* Zoom Hint Overlay */}
                     <div className="absolute inset-0 bg-ink-black/0 group-hover:bg-ink-black/30 transition-colors duration-300 flex items-center justify-center">
                         <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-sans text-[10px] font-bold uppercase tracking-widest bg-white/20 backdrop-blur-md px-4 py-2 rounded-full">

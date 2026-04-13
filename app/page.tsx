@@ -90,6 +90,17 @@ export default function Home() {
               </motion.div>
             </AnimatePresence>
 
+            {/* Logo Watermark - Top Left Corner */}
+            <div className="absolute top-4 left-4 z-30">
+              <Image
+                src="/logo.png"
+                alt="VD & Associates Logo"
+                width={50}
+                height={50}
+                className="object-contain"
+              />
+            </div>
+
             {/* Gradient Overlay for Legibility */}
             <div className="absolute inset-0 z-10 bg-gradient-to-t from-ink-black/80 via-ink-black/20 to-transparent" />
 
@@ -101,13 +112,6 @@ export default function Home() {
                 className="max-w-4xl flex flex-col items-center"
               >
                 <div className="flex items-center gap-4 mb-3">
-                  <Image
-                    src="/logo.jpeg"
-                    alt="VD & Associates Logo"
-                    width={60}
-                    height={60}
-                    className="rounded-xl shadow-2xl object-contain border-2 border-white/20"
-                  />
                   <h1 className="text-3xl md:text-5xl font-sans font-bold text-white uppercase tracking-tighter leading-none">
                     VD & <span className="text-brand-red">Associates</span>
                   </h1>

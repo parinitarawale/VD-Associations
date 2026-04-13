@@ -50,7 +50,7 @@ export default function Footer() {
                     <div className="space-y-10">
                         <div className="w-full border-b border-white/10 pb-10 flex flex-col items-center text-center">
                             <Image
-                                src="/logo.jpeg"
+                                src="/logo.png"
                                 alt="VD & Associates Logo"
                                 width={60}
                                 height={60}

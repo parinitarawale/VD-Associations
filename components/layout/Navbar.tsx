@@ -26,7 +26,7 @@ export function Navbar() {
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
                     <Image
-                        src="/logo.jpeg"
+                        src="/logo.png"
                         alt="VD & Associates Logo"
                         width={40}
                         height={40}
@@ -103,7 +103,7 @@ export function Navbar() {
                         {/* Mobile Logo */}
                         <div className="flex items-center gap-3 mb-8">
                             <Image
-                                src="/logo.jpeg"
+                                src="/logo.png"
                                 alt="VD & Associates Logo"
                                 width={44}
                                 height={44}
